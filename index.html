@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SportsBD World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+   <header>
+     <h1 class="text-3xl font-bold text-center my-3 text-primary-emphasis shadaw-3xl">Welcome to <span class="text-info underline">SportsBD</span> World</h1>
+   </header>
+   <main class="container">
+    <section>
+        <div class="row">
+           <div class="col-lg-6 ">
+            <h3 class="text-warning my-3 border shadaw-2xl text-center w-50">ALL Player<span class="text-info ">S</span></h3>
+            <div class="d-flex" role="search">
+                <input id="search-info" class="form-control me-2 w-50" type="search" placeholder="Search" aria-label="Search">
+                <button onclick="allSportsPlayer()" class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+            <div id="player-info" class="row row-cols-1 row-cols-md-2 g-4">
+s
+            </div>
+           </div> 
+           <div class="col-lg-6 ">
+           <h3 class="text-success border shadow-2xl text-center w-50 my-3"><span class="text-info">Player</span> Details</h3>
+           <div id="button-info">
+
+           </div>
+           </div>
+        </div>
+    </section>
+   </main>
+
+
+    <script src="js/sports.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
